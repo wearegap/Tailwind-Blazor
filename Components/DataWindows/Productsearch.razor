@@ -1,0 +1,25 @@
+@* @pb-anchor source=d_productsearch.srd kind=datawindow-grid style=Grid control=mud-datagrid *@
+@using ProductCatalog.Application.DTOs
+
+<MudPaper Class="pa-2" Elevation="0">
+    <MudText Typo="Typo.h6" Class="mb-2">d_productsearch</MudText>
+    <MudDataGrid T="ProductsearchDto" Items="_rows" Dense="true" Hover="true" Striped="true"
+                 Loading="_loading" Filterable="true" SortMode="SortMode.Multiple"
+                 ColumnResizeMode="ResizeMode.Column"
+                 RowClick="@OnRowClick">
+        <Columns>
+        <PropertyColumn Property="x => x.ProductitemsId" Title="Productitems Id" />
+        <PropertyColumn Property="x => x.ProductitemsName" Title="Productitems Name" />
+        <PropertyColumn Property="x => x.ProductitemsPrice" Title="Productitems Price" />
+        <PropertyColumn Property="x => x.ProductitemsImagename" Title="Productitems Imagename" />
+        <PropertyColumn Property="x => x.ProductfeaturesTitle" Title="Productfeatures Title" />
+        <PropertyColumn Property="x => x.ProductbrandsBrand" Title="Productbrands Brand" />
+        <PropertyColumn Property="x => x.ProducttypesType" Title="Producttypes Type" />
+        <PropertyColumn Property="x => x.ProducttypesCode" Title="Producttypes Code" />
+        <PropertyColumn Property="x => x.TagsTag" Title="Tags Tag" />
+        </Columns>
+        <NoRecordsContent>
+            <MudText>@(_loading ? "Loading…" : "No rows.")</MudText>
+        </NoRecordsContent>
+    </MudDataGrid>
+</MudPaper>

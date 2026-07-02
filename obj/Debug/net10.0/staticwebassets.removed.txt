@@ -1,0 +1,1 @@
+C:\Users\OscarPoveda\Documents\code\ProductCatalog.Blazor\wwwroot\css\app.css

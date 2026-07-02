@@ -1,0 +1,98 @@
+@page "/"
+
+<PageTitle>ProductCatalog - Tailwind Products</PageTitle>
+
+<MudText Typo="Typo.h3" Class="mb-4">Tailwind Product Catalog</MudText>
+<MudText Class="mb-6">Welcome to the Tailwind Product Catalog application, migrated from PowerBuilder to Blazor + MudBlazor.</MudText>
+
+<MudGrid>
+    <MudItem xs="12" sm="6" md="4">
+        <MudCard Elevation="2" Class="pa-2">
+            <MudCardHeader>
+                <MudIcon Icon="@Icons.Material.Filled.Storefront" Class="mr-2" />
+                <MudText Typo="Typo.h6">Products</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText>Manage product items in the catalog.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Href="/productitems" Variant="Variant.Text" Color="Color.Primary">Open</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+
+    <MudItem xs="12" sm="6" md="4">
+        <MudCard Elevation="2" Class="pa-2">
+            <MudCardHeader>
+                <MudIcon Icon="@Icons.Material.Filled.Category" Class="mr-2" />
+                <MudText Typo="Typo.h6">Types</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText>Manage product types and categories.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Href="/producttypes" Variant="Variant.Text" Color="Color.Primary">Open</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+
+    <MudItem xs="12" sm="6" md="4">
+        <MudCard Elevation="2" Class="pa-2">
+            <MudCardHeader>
+                <MudIcon Icon="@Icons.Material.Filled.BusinessCenter" Class="mr-2" />
+                <MudText Typo="Typo.h6">Brands</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText>Manage product brands.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Href="/productbrands" Variant="Variant.Text" Color="Color.Primary">Open</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+
+    <MudItem xs="12" sm="6" md="4">
+        <MudCard Elevation="2" Class="pa-2">
+            <MudCardHeader>
+                <MudIcon Icon="@Icons.Material.Filled.FeaturedPlayList" Class="mr-2" />
+                <MudText Typo="Typo.h6">Features</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText>Manage product features.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Href="/productfeatures" Variant="Variant.Text" Color="Color.Primary">Open</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+
+    <MudItem xs="12" sm="6" md="4">
+        <MudCard Elevation="2" Class="pa-2">
+            <MudCardHeader>
+                <MudIcon Icon="@Icons.Material.Filled.Label" Class="mr-2" />
+                <MudText Typo="Typo.h6">Tags</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText>Manage product tags.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Href="/tags" Variant="Variant.Text" Color="Color.Primary">Open</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+
+    <MudItem xs="12" sm="6" md="4">
+        <MudCard Elevation="2" Class="pa-2">
+            <MudCardHeader>
+                <MudIcon Icon="@Icons.Material.Filled.Search" Class="mr-2" />
+                <MudText Typo="Typo.h6">Search</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText>Search across products by keyword.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Href="/productsearch" Variant="Variant.Text" Color="Color.Primary">Open</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+</MudGrid>

@@ -1,0 +1,36 @@
+@* @pb-anchor source=d_productitems.srd kind=datawindow-form style=Freeform control=mud-card-form *@
+@using ProductCatalog.Application.DTOs
+
+<MudCard Class="pa-2" Elevation="1">
+    <MudCardHeader>
+        <MudCardHeaderContent>
+            <MudText Typo="Typo.h6">d_productitems</MudText>
+            @if (_rows.Count > 0)
+            {
+                <MudText Typo="Typo.caption">Record @(_currentIndex + 1) of @_rows.Count</MudText>
+            }
+        </MudCardHeaderContent>
+    </MudCardHeader>
+    <MudCardContent Style="max-height: 70vh; overflow-y: auto;">
+        @if (_row is null)
+        {
+            <MudProgressCircular Indeterminate="true" />
+        }
+        else
+        {
+        <MudForm>
+        <MudNumericField T="int" Label="Id" @bind-Value="_row.Id" Class="mb-2" />
+        <MudTextField T="string" Label="Name" @bind-Value="_row.Name" Class="mb-2" />
+        <MudNumericField T="double?" Label="Price" @bind-Value="_row.Price" Class="mb-2" />
+        @if (ResolvedImageSrc_Imagename is not null)
+        {
+            <MudImage Src="@ResolvedImageSrc_Imagename" Alt="@_row.Imagename" Height="120" ObjectFit="ObjectFit.Contain" Class="mb-2" />
+        }
+        <MudTextField T="string" Label="Imagename" @bind-Value="_row.Imagename" Class="mb-2" />
+        <MudNumericField T="int?" Label="Brandid" @bind-Value="_row.Brandid" Class="mb-2" />
+        <MudNumericField T="int?" Label="Typeid" @bind-Value="_row.Typeid" Class="mb-2" />
+        <MudNumericField T="int?" Label="Tagid" @bind-Value="_row.Tagid" Class="mb-2" />
+        </MudForm>
+        }
+    </MudCardContent>
+</MudCard>

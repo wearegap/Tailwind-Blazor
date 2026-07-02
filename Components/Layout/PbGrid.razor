@@ -1,0 +1,14 @@
+@typeparam TItem
+
+<MudDataGrid T="TItem" Items="Items" Dense="true" Hover="true" Bordered="true"
+             SelectedItemChanged="@(item => OnRowSelected.InvokeAsync(item))"
+             RowClassFunc="@((TItem item, int _) => IsRowDeleted?.Invoke(item) == true ? "pb-row-deleted" : "")">
+    <Columns>
+        @foreach (var col in Columns)
+        {
+            <TemplateColumn Title="@col.Header" HeaderClass="@col.CssClass">
+                <CellTemplate>@col.Value(context.Item)</CellTemplate>
+            </TemplateColumn>
+        }
+    </Columns>
+</MudDataGrid>

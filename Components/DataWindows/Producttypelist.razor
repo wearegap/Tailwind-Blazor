@@ -1,0 +1,19 @@
+@* @pb-anchor source=d_producttypelist.srd kind=datawindow-grid style=Grid control=mud-datagrid *@
+@using ProductCatalog.Application.DTOs
+
+<MudPaper Class="pa-2" Elevation="0">
+    <MudText Typo="Typo.h6" Class="mb-2">d_producttypelist</MudText>
+    <MudDataGrid T="ProducttypelistDto" Items="_rows" Dense="true" Hover="true" Striped="true"
+                 Loading="_loading" Filterable="true" SortMode="SortMode.Multiple"
+                 ColumnResizeMode="ResizeMode.Column"
+                 RowClick="@OnRowClick">
+        <Columns>
+        <PropertyColumn Property="x => x.Id" Title="Id" />
+        <PropertyColumn Property="x => x.Name" Title="Name" />
+        <PropertyColumn Property="x => x.Code" Title="Code" />
+        </Columns>
+        <NoRecordsContent>
+            <MudText>@(_loading ? "Loading…" : "No rows.")</MudText>
+        </NoRecordsContent>
+    </MudDataGrid>
+</MudPaper>

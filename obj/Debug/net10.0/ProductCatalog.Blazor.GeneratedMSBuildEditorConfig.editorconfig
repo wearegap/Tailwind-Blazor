@@ -1,0 +1,163 @@
+is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudAllowedAttributeList = 
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProductCatalog.Blazor
+build_property.RootNamespace = ProductCatalog.Blazor
+build_property.ProjectDir = C:\Users\OscarPoveda\Documents\code\tailwind-product_catalog-Blazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\OscarPoveda\Documents\code\tailwind-product_catalog-Blazor
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Layout/PbGrid.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUGJHcmlkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/NotFound.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Productbrandslist/ProductbrandslistPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0YnJhbmRzbGlzdFxQcm9kdWN0YnJhbmRzbGlzdFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Productbrands/ProductbrandsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0YnJhbmRzXFByb2R1Y3RicmFuZHNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Productfeatures/ProductfeaturesPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0ZmVhdHVyZXNcUHJvZHVjdGZlYXR1cmVzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Productitems/ProductitemsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0aXRlbXNcUHJvZHVjdGl0ZW1zUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Productsearch/ProductsearchPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0c2VhcmNoXFByb2R1Y3RzZWFyY2hQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Producttypelist/ProducttypelistPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0dHlwZWxpc3RcUHJvZHVjdHR5cGVsaXN0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Producttypes/ProducttypesPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0dHlwZXNcUHJvZHVjdHR5cGVzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Tagslist/TagslistPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUYWdzbGlzdFxUYWdzbGlzdFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/Tag/TagPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUYWdcVGFnUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Productbrands.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xQcm9kdWN0YnJhbmRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-4r4pkep19e
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Productbrandslist.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xQcm9kdWN0YnJhbmRzbGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-iuuj0kv3jj
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Productfeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xQcm9kdWN0ZmVhdHVyZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ywetyumlnm
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Productitems.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xQcm9kdWN0aXRlbXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-j0w3h6lomj
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Productsearch.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xQcm9kdWN0c2VhcmNoLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ok3l9jvzh7
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Producttypelist.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xQcm9kdWN0dHlwZWxpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-o4n59uzr9c
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Producttypes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xQcm9kdWN0dHlwZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6bue823mvu
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Tag.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xUYWcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4damn0bg88
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/DataWindows/Tagslist.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhV2luZG93c1xUYWdzbGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3us3lj9zht
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/WMain.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXTWFpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-dgyd9fjnri
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/WProductbrands.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXUHJvZHVjdGJyYW5kcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-vyz6etojdk
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/WProductfeatures.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXUHJvZHVjdGZlYXR1cmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-1rdn72i2vz
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/WProductitems.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXUHJvZHVjdGl0ZW1zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-1pq8ktcvwy
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/WProductsearch.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXUHJvZHVjdHNlYXJjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-0ujn3xsn95
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/WProducttypes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXUHJvZHVjdHR5cGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-p0j66m0ri7
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/WTags.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXVGFncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-t7we5f2flv
+
+[C:/Users/OscarPoveda/Documents/code/tailwind-product_catalog-Blazor/Components/Pages/WWindw3.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXV2luZHczLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-2oghmqzoh9

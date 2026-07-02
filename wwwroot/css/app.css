@@ -1,0 +1,12 @@
+/* ui-mode: modernized — MudBlazor defaults, responsive Material look */
+:root {
+    --pb-face:   #ece9d8;
+    --pb-blue:   #0a246a;
+    --pb-white:  #ffffff;
+    --pb-text:   #000000;
+    --pb-border: #aca899;
+    --pb-font:   11px "MS Sans Serif", Tahoma, sans-serif;
+}
+
+html, body { background: var(--mud-palette-background, #fafafa); }
+.pb-row-deleted { opacity: 0.55; text-decoration: line-through; }

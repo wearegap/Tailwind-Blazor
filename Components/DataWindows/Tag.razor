@@ -1,0 +1,27 @@
+@* @pb-anchor source=d_tag.srd kind=datawindow-form style=Freeform control=mud-card-form *@
+@using ProductCatalog.Application.DTOs
+
+<MudCard Class="pa-2" Elevation="1">
+    <MudCardHeader>
+        <MudCardHeaderContent>
+            <MudText Typo="Typo.h6">d_tag</MudText>
+            @if (_rows.Count > 0)
+            {
+                <MudText Typo="Typo.caption">Record @(_currentIndex + 1) of @_rows.Count</MudText>
+            }
+        </MudCardHeaderContent>
+    </MudCardHeader>
+    <MudCardContent Style="max-height: 70vh; overflow-y: auto;">
+        @if (_row is null)
+        {
+            <MudProgressCircular Indeterminate="true" />
+        }
+        else
+        {
+        <MudForm>
+        <MudNumericField T="int" Label="Id" @bind-Value="_row.Id" Class="mb-2" />
+        <MudTextField T="string" Label="Value" @bind-Value="_row.Value" Class="mb-2" />
+        </MudForm>
+        }
+    </MudCardContent>
+</MudCard>

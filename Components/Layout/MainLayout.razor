@@ -1,0 +1,49 @@
+@inherits LayoutComponentBase
+@inject AuthState Auth
+@inject ILogger<MainLayout> Log
+
+<MudThemeProvider Theme="AppTheme.Theme" />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start"
+                       OnClick="@(() => _drawerOpen = !_drawerOpen)" />
+        <MudText Typo="Typo.h6">ProductCatalog</MudText>
+        <MudSpacer />
+        @if (Auth.IsAuthenticated) { <MudText>@Auth.UserName</MudText> }
+    </MudAppBar>
+    <MudDrawer @bind-Open="_drawerOpen" Elevation="1" Variant="@DrawerVariant.Persistent">
+        <NavMenu />
+    </MudDrawer>
+    <MudMainContent Class="mt-16 pa-4">
+        <ErrorBoundary @ref="_errorBoundary">
+            <ChildContent>
+                @Body
+            </ChildContent>
+            <ErrorContent Context="ex">
+                <MudPaper Class="pa-4" Elevation="0">
+                    <MudAlert Severity="Severity.Error" Variant="Variant.Filled">
+                        <MudText Typo="Typo.h6">Something went wrong.</MudText>
+                        <MudText Typo="Typo.body2">@ex.Message</MudText>
+                        <MudButton Color="Color.Inherit" OnClick="Recover" Class="mt-2">Try again</MudButton>
+                    </MudAlert>
+                </MudPaper>
+            </ErrorContent>
+        </ErrorBoundary>
+    </MudMainContent>
+</MudLayout>
+
+@code {
+    private bool _drawerOpen = true;
+    private ErrorBoundary? _errorBoundary;
+    private void Recover() => _errorBoundary?.Recover();
+    protected override void OnParametersSet()
+    {
+        // ErrorBoundary resets itself on each route change so users are not
+        // stuck on the fallback after navigating away from the broken page.
+        _errorBoundary?.Recover();
+    }
+}
